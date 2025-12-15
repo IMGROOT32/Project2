@@ -18,3 +18,7 @@ void Warrior::attack()
 {
 	cout << "Warrior Attack!!" << endl;
 }
+void Warrior::defend()
+{
+	cout << "Warrior Defend!!" << endl;
+}

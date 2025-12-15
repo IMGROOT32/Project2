@@ -8,6 +8,7 @@ public:
     Player(string nickname);
 
     virtual void attack() = 0;
+	virtual void defend() = 0;  
     void printPlayerStatus();
 
     // getter ÇÔ¼ö

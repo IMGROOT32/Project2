@@ -6,4 +6,5 @@ class Magician :
 public:
     Magician(string nickname);
 	void attack() override;
+    void defend() override;
 };

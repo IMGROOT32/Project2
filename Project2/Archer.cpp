@@ -18,3 +18,7 @@ void Archer::attack()
 {
 	cout << "Archer Ataack!!" << endl;
 }
+void Archer::defend()
+{
+	cout << "Archer Defend!!" << endl;
+}

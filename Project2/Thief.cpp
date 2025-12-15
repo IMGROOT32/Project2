@@ -17,3 +17,7 @@ void Thief::attack()
 {
 	cout << "Thief Attack!!" << endl;
 }
+void Thief::defend()
+{
+	cout << "Thief Defend!!" << endl;
+}

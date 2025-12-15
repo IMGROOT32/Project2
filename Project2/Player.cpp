@@ -35,11 +35,11 @@ string Player::getJobName()
 
 string Player::getNickname()
 {
-
+	return nickname;
 }
 int Player::getLevel()
 { 	
-
+	return level;
 }
 int Player::getHP()
 {
@@ -51,24 +51,24 @@ int Player::getMP()
 }
 int Player::getPower()
 {
-	
+	return power;
 }
 int Player::getDefence()
 {
-	
+	return defence;
 }
 int Player::getAccuracy()
 {
-	
+	return accuracy;	
 }
 int Player::getSpeed()
 {
-	
+	return speed;
 }
 
 void Player::setNickname(string nickname)
 {
-	
+	this->nickname = nickname;
 }
 void Player::setHP(int HP)
 {
@@ -80,17 +80,17 @@ void Player::setMP(int MP)
 }
 void Player::setPower(int power)
 {
-	
+	this->power = power;	
 }
 void Player::setDefence(int defence)
 {
-	
+	this->defence = defence;
 }
 void Player::setAccuracy(int accuracy)
 {
-	
+	this->accuracy = accuracy;
 }
 void Player::setSpeed(int speed)
 {
-	
+	this->speed = speed;	
 }

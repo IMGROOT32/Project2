@@ -6,5 +6,6 @@ class Thief :
 public:
     Thief(string nickname);
     void attack() override;
+    void defend() override;
 };
 

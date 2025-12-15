@@ -18,3 +18,7 @@ void Magician::attack()
 {
 	cout << "Magician Attack!!" << endl;
 }
+void Magician::defend()
+{
+	cout << "Magician Defend!!" << endl;
+}

@@ -6,4 +6,5 @@ class Warrior :
 public:
     Warrior(string nickname);
 	void attack() override;
+    void defend() override;
 };

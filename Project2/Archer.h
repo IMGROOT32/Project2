@@ -6,4 +6,5 @@ class Archer :
 public:
     Archer(string nickname);
     void attack() override;
+    void defend() override;
 };
