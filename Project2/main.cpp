@@ -47,6 +47,7 @@ int main() {
     }
 
     player->attack();
+	player->defend();
     player->printPlayerStatus();
 
     if (player != nullptr)

@@ -1,10 +1,10 @@
 
 #include "Magician.h"
 
-Magician::nickname(string nickname) : Player(Nickname)
+Magician::Magician (string nickname) : Player(nickname)
 {
 	job_name = "Magician";
-	this->Magician = nickname;
+	this->nickname = nickname;
 	level = 1;
 	HP = 70;
 	MP = 100;
